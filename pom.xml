@@ -6,6 +6,7 @@
     <groupId>com.opencsi</groupId>
     <artifactId>jscep-api-bc-jdk6</artifactId>
     <packaging>jar</packaging>
+    <version>1.2.2-SNAPSHOT</version>
 
     <name>jscep-api-bc-jdk6</name>
     <url>http://maven.apache.org</url>
@@ -19,6 +20,10 @@
             <id>opencsi</id>
             <url>http://localhost:8081/nexus/content/repositories/opencsi/</url>
         </repository>
+        <snapshotRepository>
+            <id>opencsi-snapshot</id>
+            <url>http://localhost:8081/nexus/content/repositories/opencsi-snapshot/</url>
+        </snapshotRepository>
     </distributionManagement>
     
     <dependencies>
@@ -27,11 +32,6 @@
             <artifactId>junit</artifactId>
             <version>3.8.1</version>
             <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.bouncycastle</groupId>
-            <artifactId>bcprov-ext-jdk16</artifactId>
-            <version>1.46</version>
         </dependency>
         <dependency>
             <groupId>org.bouncycastle</groupId>
@@ -44,5 +44,4 @@
             <version>1.46</version>
         </dependency>
     </dependencies>
-    <version>1.2.1</version>
 </project>
