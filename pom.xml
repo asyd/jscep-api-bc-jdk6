@@ -18,11 +18,11 @@
     <distributionManagement>
         <repository>
             <id>opencsi</id>
-            <url>http://localhost:8081/nexus/content/repositories/opencsi/</url>
+            <url>http://dev.opencsi.com/nexus/content/repositories/opencsi/</url>
         </repository>
         <snapshotRepository>
             <id>opencsi-snapshot</id>
-            <url>http://localhost:8081/nexus/content/repositories/opencsi-snapshot/</url>
+            <url>http://dev.opencsi.com/nexus/content/repositories/opencsi-snapshot/</url>
         </snapshotRepository>
     </distributionManagement>
     
